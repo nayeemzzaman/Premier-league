@@ -1,0 +1,88 @@
+.body{
+    background-color: rgba(14, 10, 42, 1);
+    color: white;
+}
+.detailsTopBanner{
+    height: 350px;
+    text-align: center;
+}
+.topBannerLayer{
+    background: rgb(255, 255, 255,0.5);
+    height: 350px;
+    padding-top: 75px;
+}
+.topBannerLayer img{
+    height:200px;
+    width:200px;
+}
+.team-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    background-color: rgba(58, 66, 255, 1);
+    height: 284px;
+    border-radius: 10px;
+}
+.teamDetailsInfo{
+    color: white;
+    margin-top:30px;
+    margin-left:20px;
+}
+.teamDetailsInfo p{
+    padding: 0px;
+    margin-bottom: 7px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.teamDetailsImg{
+    margin: 25px;
+}
+.teamDetailsImg img{
+    height: 240px;
+    width: 440px;
+}
+.team-description{
+    margin-left: 100px;
+    margin-right: 100px;
+    letter-spacing: 0.5px;
+}
+.link img{
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+}
+.link{
+    text-align: center;
+    margin-top: 50px;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+}
+@media (max-width: 600px){
+    .team-details{
+        display: inline-block;
+        margin-left: 20px;
+        height: 500px;
+        width: 400px;
+    }
+    .teamDetailsInfo{
+        width: 400px;
+    }
+    .teamDetailsImg{
+        margin-left:15px;
+    }
+    .teamDetailsImg img{
+        height: 270px;
+        width: 370px;
+    }
+    .team-description{
+        margin-left: 20px;
+        margin-right: 20px;
+        letter-spacing: 0.5px;
+        font-size: 20px;
+    }
+}

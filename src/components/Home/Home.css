@@ -1,0 +1,23 @@
+
+.home{
+    background-color: rgba(14, 10, 42, 1);
+    color: white;
+
+}
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+.emptyBlock{
+    background-color:rgba(14, 10, 42, 1);
+    width: 100%;
+    height: 150px;
+}
+@media (max-width: 600px){
+    .team-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+}

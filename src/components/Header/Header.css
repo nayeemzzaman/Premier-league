@@ -1,0 +1,18 @@
+.header{
+    background: rgba(0, 0, 0, 0.5);
+    height: 350px;
+    padding-top: 120px;
+}
+.header h1{
+    font-size: 60px;
+}
+.header img{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+}
+.topBanner{
+    height: 350px;
+    text-align: center;
+    background: url("../../images/Rectangle\ 21.png"); 
+}
