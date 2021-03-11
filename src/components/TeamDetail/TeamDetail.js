@@ -8,12 +8,8 @@ import found from '../../images/found 1.png';
 import country from '../../images/flag.png';
 import sport from '../../images/sport.png';
 import gender from '../../images/gender.png';
-import facebook from '../../images/Facebook.png';
-import youtube from '../../images/YouTube.png';
-import twitter from '../../images/Twitter.png'
 import './TeamDetail.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
 import { faFacebookSquare, faTwitterSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
 const TeamDetail = () => {
     const {teamId}= useParams();
@@ -23,7 +19,7 @@ const TeamDetail = () => {
         fetch(url)
         .then(res => res.json())
         .then(data => setTeamInfo(data.teams[0]));
-    },[])
+    },[teamId])
     let teamImg;
 
     const iconStyle={
@@ -60,10 +56,10 @@ const TeamDetail = () => {
             <div className='team-details'>
                 <div className='teamDetailsInfo'>
                     <h2>{teamInfo.strTeam}</h2>
-                    <p><img src={found}style={iconStyle}/>Founded: {teamInfo.intFormedYear}</p>
-                    <p><img src={country}style={iconStyle}/>Country: {teamInfo.strCountry}</p>
-                    <p><img src={sport}style={iconStyle}/>Sport type: {teamInfo.strSport}</p>
-                    <p><img src={gender}style={iconStyle}/>Gender: {teamInfo.strGender}</p>
+                    <p><img src={found}style={iconStyle}alt=""/>Founded: {teamInfo.intFormedYear}</p>
+                    <p><img src={country}style={iconStyle}alt=""/>Country: {teamInfo.strCountry}</p>
+                    <p><img src={sport}style={iconStyle}alt=""/>Sport type: {teamInfo.strSport}</p>
+                    <p><img src={gender}style={iconStyle}alt=""/>Gender: {teamInfo.strGender}</p>
                 </div>
                 <div className='teamDetailsImg'>
                     <img src={teamImg} alt=""/>

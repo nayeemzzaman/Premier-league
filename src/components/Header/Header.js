@@ -1,6 +1,5 @@
 import React from 'react';
 import './Header.css';
-import premireLogo from '../../images/premireLeague.png';
 const Header = () => {
     return (
         <div className='topBanner'>

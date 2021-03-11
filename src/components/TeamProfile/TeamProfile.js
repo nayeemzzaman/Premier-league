@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 const TeamProfile = (props) => {
-    console.log(props);
     const {strTeam, strTeamBadge,idTeam, strSport}=props.teamData;
     return (
         <div className='team-profile'>

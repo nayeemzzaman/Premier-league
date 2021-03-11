@@ -1,8 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
-import { Route, Router, Switch } from 'react-router';
 import Header from '../Header/Header';
-import TeamDetail from '../TeamDetail/TeamDetail';
 import TeamProfile from '../TeamProfile/TeamProfile';
 
 import './Home.css'
