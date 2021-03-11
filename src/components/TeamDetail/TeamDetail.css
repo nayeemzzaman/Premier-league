@@ -66,6 +66,7 @@
     .team-details{
         display: inline-block;
         margin-left: 20px;
+        margin-right: 20px;
         height: 500px;
         width: 400px;
     }
@@ -85,4 +86,5 @@
         letter-spacing: 0.5px;
         font-size: 20px;
     }
+    
 }

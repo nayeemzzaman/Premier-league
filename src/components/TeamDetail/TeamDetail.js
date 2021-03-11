@@ -47,10 +47,11 @@ const TeamDetail = () => {
         teamImg=femaleImg;
     }
     const backgroundStyle={
-        background: `url('${teamInfo.strTeamBanner}')`
+        background: `url('${teamInfo.strStadiumThumb}')`,
+        backgroundSize: 'auto'
     }
     return (
-        <div className=" body">
+        <div className="body">
             <div style={backgroundStyle} className="detailsTopBanner">
                 <div className='topBannerLayer'>
                     <img src={teamInfo.strTeamBadge} alt=""/>

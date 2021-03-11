@@ -15,4 +15,11 @@
     height: 350px;
     text-align: center;
     background: url("../../images/Rectangle\ 21.png"); 
+    background-size: cover;
+}
+@media (max-width: 600px){
+    .topBanner{
+        background: url("../../images/Rectangle\ 21-resize.png");
+        background-size: auto;
+    }
 }
