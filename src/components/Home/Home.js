@@ -26,10 +26,7 @@ const Home = () => {
                 }
             </div>
             <div className='emptyBlock'>
-                
-                <FontAwesomeIcon icon={['fab', 'apple']} />
-                <FontAwesomeIcon icon={['fab', 'microsoft']} />
-                <FontAwesomeIcon icon={['fab', 'google']} />
+
             </div>
         </div>
     );
