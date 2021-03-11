@@ -70,9 +70,9 @@ const TeamDetail = () => {
             </div>
             <div className='emptyBlock'>
                 <div className='link'>
-                    <a href={`https://${teamInfo.strFacebook}`} target='_blank'><FontAwesomeIcon icon={faFacebookSquare}style={iconStyle2}/></a>
-                    <a href={`https://${teamInfo.strYoutube}`} target='_blank'><FontAwesomeIcon icon={faYoutubeSquare} style={iconStyle2}/></a>
-                    <a href={`https://${teamInfo.strTwitter}`} target='_blank'><FontAwesomeIcon icon={faTwitterSquare} style={iconStyle2}/></a>
+                    <a href={`https://${teamInfo.strFacebook}`} target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faFacebookSquare}style={iconStyle2}/></a>
+                    <a href={`https://${teamInfo.strYoutube}`} target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faYoutubeSquare} style={iconStyle2}/></a>
+                    <a href={`https://${teamInfo.strTwitter}`} target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faTwitterSquare} style={iconStyle2}/></a>
                 </div>
             </div>
         </div>
